@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="index.html" rel="import" />
+    <title>Document</title>
+</head>
+
+<body class="body-2">
+    <div class="wrapper">
+        <div class="container">
+
+            <!-- PRE NAVBAR -->
+            <div class="pre-nav">
+
+                <div class="flex pre-nav-address">
+                    <div class="flex">
+                        <img class="pre-nav-icons" src="./Images/location-icon.svg" alt="">
+                        <h2 class="bold-black-text">г. Кокчетав, ул. Ж. Ташенова 129Б
+                            <br> <span class="extra-light-text">(Рынок Восточный)</span>
+                        </h2>
+                    </div>
+                    <div class="flex">
+                        <img class="pre-nav-icons" src="./Images/location-icon.svg" alt="">
+                        <h2 class="bold-black-text">opt.sultan@mail.ru
+                            <br> <span class="extra-light-text">На связи в любое время</span>
+                        </h2>
+                    </div>
+                </div>
+
+                <div>
+                    <ul class="pre-nav-links">
+                        <li><a href="#">О компании</a></li>
+                        <li><a href="#">Доставка и оплата</a></li>
+                        <li><a href="#">Возврат</a></li>
+                        <li><a href="#">Контакты</a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Mobile Nav -->
+        <div id="mySidebar" class="sidebar">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Clients</a>
+            <a href="#">Contact</a>
+        </div>
+
+        <!-- MAIN NAVBAR -->
+        <nav>
+            <div class="hamburger">
+                <img src="./Images/hamburger.svg" alt="">
+            </div>
+            <div class="navbar-logo">
+                <a href="index.html">
+                    <img src="./Images/nav-logo.svg" alt="">
+                </a>
+            </div>
+            <div class="categories">
+                <h4>Каталог</h4>
+                <img class="categories-img" src="./Images/square-icon.svg" alt="">
+            </div>
+            <div class="search-area">
+                <input placeholder="Поиск..." type="text">
+                <img src="./Images/search-icon.svg" alt="">
+            </div>
+            <div class="operator-girl">
+                <div class="text-float-left">
+                    <h2 class="bold-black-text">+7 (777) 490-00-91</h2>
+                    <h3 class="light-text">время работы: 9:00-20:00</h3>
+                    <h4 class="call-link">Заказать звонок</h4>
+                </div>
+                <div>
+                    <img class="operator-pic" src="./Images/opeator-girl.svg" alt="">
+                </div>
+            </div>
+            <div class="price-list clear-history-btn">
+                <h4>Clear History</h4>
+                <!-- <img src="./Images/download.svg" alt=""> -->
+            </div>
+            <div class="cart-price">
+                <a href="cart.html">
+                    <div class="flex">
+                        <img src="./Images/cart-icon.svg" alt="">
+                        <div class="item-counter-wrapper">
+                            <p class="item-counter">0</p>
+                        </div>
+                    </div>
+                </a>
+                <div class="total-price-wrapper">
+                    <h5 class="extra-light-text">Корзина</h5>
+                    <h4><span class="total-price">12 478</span> ₸</h4>
+                </div>
+            </div>
+        </nav>
+
+
+        <div class="cart-gathered-items" id='all-items-wrapper'>
+            <div class="choose-main-or-cart">
+                <h6>Главная</h6>
+                <img src="./Images/Vector.svg" alt="">
+                <h6>Корзина</h6>
+            </div>
+            <h1 class="cart-title">Корзина</h1>
+
+            <div class="items-container"></div>
+
+            <!-- <div class="single-item">
+                <img class="item-picture" src="./Images/dish-cleaner.svg" alt="">
+
+                <div class="cart-item-textcontent">
+                    <div class="item-amount">450ml</div>
+                    <h1 class="cart-item-description">AOS средство для мытья посуды Crystal</h1>
+                </div>
+
+                <h1><span class="cart-item-price">48,76</span> ₸</h1>
+
+                <div class="count-item-wrapper">
+                    <button class="plus-minus-symbols">-</button>
+                    <h2 class="items-quantity">1</h2>
+                    <button class="plus-minus-symbols">+</button>
+                </div>
+
+                <div class="delete-btn">
+                    <img id="delete-btn-img" src="./Images/trash.svg" alt="">
+                </div>
+            </div> -->
+
+            <div class="submitBtn-totalPrice-wrapper"></div>
+
+        </div>
+        <!-- <h1 class="overall-price">213</h1> -->
+
+
+
+        <footer class="fake-footer">
+            <img src="./Images/fake-footer.jpg" alt="">
+        </footer>
+    </div>
+    <script src="./slick-1.8.1/frameworks.js"></script>
+    <script src="./JS/cart.js" type="module"></script>
+</body>
+
+</html>

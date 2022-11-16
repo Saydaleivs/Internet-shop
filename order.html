@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./slick-1.8.1/slick/styles.css">
+    <title>Document</title>
+</head>
+
+<body onload="">
+
+    <div class="alert-box">
+        <div class="alert-content">
+            <h1 class="alert-exit">x</h1>
+            <div>
+                <img src="./Images/alert-icon.svg" alt="">
+                <h1>Спасибо за заказ</h1>
+                <h5>Наш менеджер свяжется с вами в ближайшее время</h5>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="wrapper">
+        <div class="container">
+
+            <!-- PRE NAVBAR -->
+            <div class="pre-nav">
+
+                <div class="flex pre-nav-address">
+                    <div class="flex">
+                        <img class="pre-nav-icons" src="./Images/location-icon.svg" alt="">
+                        <h2 class="bold-black-text">г. Кокчетав, ул. Ж. Ташенова 129Б
+                            <br> <span class="extra-light-text">(Рынок Восточный)</span>
+                        </h2>
+                    </div>
+                    <div class="flex">
+                        <img class="pre-nav-icons" src="./Images/location-icon.svg" alt="">
+                        <h2 class="bold-black-text">opt.sultan@mail.ru
+                            <br> <span class="extra-light-text">На связи в любое время</span>
+                        </h2>
+                    </div>
+                </div>
+
+                <div>
+                    <ul class="pre-nav-links">
+                        <li><a href="#">О компании</a></li>
+                        <li><a href="#">Доставка и оплата</a></li>
+                        <li><a href="#">Возврат</a></li>
+                        <li><a href="#">Контакты</a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Mobile Nav -->
+        <div id="mySidebar" class="sidebar">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Clients</a>
+            <a href="#">Contact</a>
+        </div>
+
+        <!-- MAIN NAVBAR -->
+        <nav>
+            <div class="hamburger">
+                <img src="./Images/hamburger.svg" alt="">
+            </div>
+            <div class="navbar-logo">
+                <a href="index.html">
+                    <img src="./Images/nav-logo.svg" alt="">
+                </a>
+            </div>
+            <div class="categories">
+                <h4>Каталог</h4>
+                <img class="categories-img" src="./Images/square-icon.svg" alt="">
+            </div>
+            <div class="search-area">
+                <input placeholder="Поиск..." type="text">
+                <img src="./Images/search-icon.svg" alt="">
+            </div>
+            <div class="operator-girl">
+                <div class="text-float-left">
+                    <h2 class="bold-black-text">+7 (777) 490-00-91</h2>
+                    <h3 class="light-text">время работы: 9:00-20:00</h3>
+                    <h4 class="call-link">Заказать звонок</h4>
+                </div>
+                <div>
+                    <img class="operator-pic" src="./Images/opeator-girl.svg" alt="">
+                </div>
+            </div>
+            <div class="price-list clear-history-btn">
+                <h4>Clear History</h4>
+                <!-- <img src="./Images/download.svg" alt=""> -->
+            </div>
+            <div class="cart-price">
+                <a href="cart.html">
+                    <div class="flex">
+                        <img src="./Images/cart-icon.svg" alt="">
+                        <div class="item-counter-wrapper">
+                            <p class="item-counter">0</p>
+                        </div>
+                    </div>
+                </a>
+                <div class="total-price-wrapper">
+                    <!-- <h5 class="extra-light-text">Корзина</h5> -->
+                    <h4><span class="total-price">0</span> ₸</h4>
+                </div>
+            </div>
+        </nav>
+
+
+
+        <div class="orders-container">
+            <div>
+                <h1 class="order-html-title">Оформление заказа</h1>
+                <div class="daniye">
+
+                    <img src="./Images/num-1.svg" alt="" id="img_00">
+                    <h4 id="h4_2">Контактные данные</h4>
+                </div>
+                <div class="div_kotta">
+
+                    <div class="nomer_1">
+                        <div class="daniye_1">
+                            <h5>Имя*</h5>
+                            <div class="search">
+                                <input type="text" placeholder="Введите ваше имя" id="input_1" class="user-name all-inputs">
+                            </div>
+                        </div>
+
+                        <div class="daniye_1">
+                            <h5>Телефон*</h5>
+                            <div class="search">
+                                <input type="number" placeholder="Введите ваш телефон" id="input_1" class="user-phone all-inputs">
+                            </div>
+                        </div>
+
+                        <div class="daniye_1">
+                            <h5>E-mail*</h5>
+                            <div class="search">
+                                <input type="email" placeholder="Введите ваш E-mail" id="input_1" class="user-email all-inputs">
+                            </div>
+                        </div>
+
+                        <div class="daniye_1">
+                            <h5>Название организации</h5>
+                            <div class="search">
+                                <input type="text" placeholder="организац" id="input_1" class="user-organization all-inputs">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="oplatalalar">
+                        <div class="oplata">
+                            <div class="oplata_1">
+                                <div class="fel">
+                                    <img src="./Images/wallet.svg" alt="" id="img_15">
+                                    <h4 id="h4">Оплата</h4>
+                                </div>
+                                <p id="p_1">Принимаем оплату наличными, по карте <br> и через расчетный счет.</p>
+                            </div>
+                        </div>
+
+                        <div class="oplata_2">
+                            <div class="oplata_1">
+                                <div class="fel">
+                                    <img src="./Images/mini-car.svg" alt="" id="img_15">
+                                    <h4 id="h4">Доставка</h4>
+                                </div>
+                                <p id="p_1">Бесплатная доставка от 10 000 ₸ <br>
+                                    по области. Наша доставка работает <br>
+                                    ежедневно.</p>
+                            </div>
+                        </div>
+
+                        <div class="oplata_3">
+                            <div class="oplata_1">
+                                <div class="fel">
+                                    <img src="./Images/question-symbol.svg" alt="" id="img_15">
+                                    <h4 id="h4">возникли вопросы?</h4>
+                                </div>
+                                <p id="p_1">Звоните: +7 777 490 00 91 <br>
+                                    Менеджер Вам ответит на все вопросы.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="div_kotta_2">
+                    <div class="daniye" style="margin-left: 400px; position: relative; top: -70px;">
+                        <img src="./Images/num-3.svg" alt="" id="img_001">
+                        <h4 id="h4_1">адрес доставки</h4>
+                    </div>
+                    <div class="daniye" style="position: relative; top: -120px;">
+                        <img src="./Images/num-2.svg" alt="" id="img_001">
+                        <h4 id="h4_1">адрес доставки</h4>
+                    </div>
+                    <div class="class_kotta">
+                        <div class="counrty">
+                            <div class="daniye_1">
+                                <h5>Город</h5>
+                                <div class="search">
+                                    <input type="text" placeholder="Выберите ваш город" id="input_1" class="user-city all-inputs">
+                                </div>
+                            </div>
+
+                            <div class="daniye_1">
+                                <h5>Адрес</h5>
+                                <div class="search">
+                                    <input type="text" placeholder="Введите адрес доставки" id="input_1" class="user-address all-inputs">
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="div_text">
+                            <h4 id="h4id">Комментарий</h4>
+                            <textarea name="" id="textarea" cols="4" rows="10"
+                                placeholder="Введите ваш комментарий" class="user-message all-inputs"></textarea>
+                        </div>
+                    </div>
+                    <a href="#" id="a_href" class="order-btn">Подтверждение заказа</a>
+
+                </div>
+            </div>
+
+
+            <div class="ordered-items-wrapper">
+                <h1 class="your-order-title">Ваш заказ</h1>
+
+                <div class="ordered-items">
+
+                    <!-- <div class="single-ordered-item">
+                        <div>
+                            <img src="./Images/ariel.svg" alt="">
+                        </div>
+                        <div class="manual-pl">
+                            <div class="item-amount">450ml</div>
+                            <h1 class="ordered-item-description">AOS средство для мытья посуды Crystal</h1>
+                            <h3><span class="ordered-item-price">48,76</span> ₸</h3>
+                        </div>
+                    </div> -->
+
+                </div>
+                <div class="order-price-wrapper">
+                    <h2>ИТОГО</h2>
+                    <h2><span class="order-price">0</span> ₸</h2>
+                </div>
+            </div>
+        </div>
+
+
+
+        <footer class="fake-footer">
+            <img src="./Images/fake-footer.jpg" alt="">
+        </footer>
+
+
+    </div>
+    <script src="./JS/order.js"></script>
+    <script src="./slick-1.8.1/frameworks.js"></script>
+    <script>
+        document.querySelector('.alert-exit').addEventListener('click', () => document.querySelector('.alert-box').style.display = 'none')
+        document.querySelector('.order-btn').addEventListener('click', () => document.querySelector('.alert-box').style.display = 'flex')
+    </script>
+</body>
+
+</html>
